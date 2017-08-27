@@ -1,6 +1,6 @@
 ### Welcome!
 
-This is my final evaluation submission page for project "Crash Reporter for Tor Browser", written code can be found in [Tor Browser repository clone](https://github.com/nmago/tor-browser/commits/crdevc?author=nmago), but most work of this project was focused in non-coding stuffs (analysis, building, error handling).
+This is my final evaluation submission page for project "Crash Reporter for Tor Browser", written code can be found in [Tor Browser repository clone](https://github.com/nmago/tor-browser/commits/crdevc?author=nmago), but most work of this project was focused on non-coding stuffs (analysis, building, error handling).
 
 
 #### Project description
@@ -30,7 +30,7 @@ And at the end we managed to build Tor Browser reproducible with enabled Crash R
 There are much work to do (and I intend to keep working on this project):
  - Work on UI of Crash Reporter client
  - Work on MBS: adding various features into report viewer such as filters, search, design stuff and other things that could make reports view/analysis easier
- - Adapt Crash Reporter client for other platforms: this Summer we work only on Linux version
+ - Adapt Crash Reporter client for other platforms: this Summer we worked only on Linux version
 
 #### P.S.
 
