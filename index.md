@@ -40,11 +40,12 @@ Finally, we decided to use  [Mini-Breakpad-Server](https://github.com/electron/m
  - service to view reports
 
 Other option was "creating authorization" but it could make service intricate and unsafe, so "break into 2 services" was the fastest and easiest way. 
-Both of services set up as .onion: to send reports through the Tor network (why don't use main feature of Tor Browser - anonymous network to send?). 
+Both of services are set up as .onion: to send reports through the Tor network (why don't use main feature of Tor Browser - anonymous network to send?). 
 
 ##### Building Tor Browser
 
-At the beginning we built just browser (not Tor Browser Bundle) to test features and in last 3 weeks of GSoC period we tried to build Tor Browser Bundle using Reproducible Build Manager (RBM), few days we spent building windows version (also got erros such as [this](https://bugzilla.mozilla.org/show_bug.cgi?id=1391685)), after that returned to Linux version and we managed to build Tor Browser reproducible with enabled our updated Crash Reporter. 
+At the beginning we built just browser (not Tor Browser Bundle) to test features and in last 3 weeks of GSoC period we tried to build Tor Browser Bundle using Reproducible Build Manager (RBM), few days we spent building Windows version (also got erros such as [this](https://bugzilla.mozilla.org/show_bug.cgi?id=1391685)), after that returned to Linux version and we managed to build Tor Browser reproducible with enabled our updated Crash Reporter. 
+
 In this project building was very time taking and nothing doing process: you start build and have to just look, got logs, fix errors and start again. Dont sure have I to consider it as work hours :/
 
 
