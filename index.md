@@ -1,6 +1,7 @@
 ### Welcome!
 
 This is my final evaluation submission page for project "Crash Reporter for Tor Browser", written code can be found in [Tor Browser repository clone](https://github.com/nmago/tor-browser/commits/crdevc?author=nmago), but most work of this project was focused on non-coding stuffs (analysis, building, error handling).
+I be-weekly sent progress reports to [Tor Project mailing list](https://lists.torproject.org/pipermail/tor-project/) (from nmagoru at gmail.com)
 
 
 #### Project description
