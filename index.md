@@ -26,7 +26,7 @@ To collect info and analyse report fields we made [Wiki-page](https://trac.torpr
  - Can be used this field for find out about user?
  - What's about combinations of 2 or more fields?
 
-We've started carefully choose fields one-by-one and now have 5-10 that we sure in. There are interesting ideas in project wiki, such as making different privacy options in client (to choose by users). Also there are a complex fields (Add-ons, modules) in reports that (may be) should be filtered.
+We've started to carefully choose fields one-by-one and now have 5-10 that we sure in. There are interesting ideas in project wiki, such as making different privacy options in client (to choose by users). Also there are a complex fields (Add-ons, modules) in reports that (may be) should be filtered.
 It's "war" between privacy and helpfulness of crash reports for developers.
 
 ##### Server
@@ -38,7 +38,7 @@ Finally, we decided to use  [Mini-Breakpad-Server](https://github.com/electron/m
  - service to view reports
 
 Other option was "creating authorization" but it could make service intricate and unsafe, so "break into 2 services" was the fastest and easiest way. 
-Both of services set up as .onion: to send reports through the Tor network. 
+Both of services set up as .onion: to send reports through the Tor network (why don't use main feature of Tor Browser - anonymous network to send?). 
 
 ##### Building Tor Browser
 
